@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title>Get Rickroll'd :)</title>
+<body>
+   <video id="rickroll" controls="controls" autoplay="autoplay" playsinline>
+   <source src="assets/rickroll.mp4" type="video/mp4">
+   <link rel="shortcut icon" type="image/png" href="./icon.png">
+    Your browser does not support HTML rickroll or you disabled javascript you motherfucker.
+  </video>
+<script>
+var video = document.getElementById("rickroll");video.removeAttribute("controls");video.onended=function(){document.getElementById('rickroll').play();};setInterval(function(){if(video.paused){document.getElementById('rickroll').play();}},1);history.pushState(null, null, document.URL);window.addEventListener('popstate',function(){history.pushState(null, null, document.URL);});
+</script>
+<style>
+	video {
+  height: 100%;
+  width: 100%;
+}
+</style>
+</body> 
+</html>

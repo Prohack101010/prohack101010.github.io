@@ -1,0 +1,41 @@
+body {
+    background-color: #929292;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main {
+    width: 600px;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #fdfdff;
+    border-radius: 1em;
+    box-shadow: 2px 3px 7px 2px #fdfdff75;
+}
+
+a:link,
+a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+
+.youtubecnt {
+    width: 300px;
+    margin: auto;
+    height: 80px;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 2px 3px 7px 2px #1C1B22;
+}
+.youtubecnt iframe{
+    border-radius: 1em;
+    height: 80px;
+}
+
+@media (max-width: 700px) {
+    .main {
+        margin: 0 auto;
+        width: auto;
+    }
+}
