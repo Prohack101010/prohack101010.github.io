@@ -195,7 +195,7 @@
       "danceEvery": 0,
       "zIndex": 90,
       "position": [1840, 608],
-      "scale": [1, 1],
+      "scale": [2, 2],
       "animType": "sparrow",
       "name": "phillyTraffic",
       "isPixel": false,

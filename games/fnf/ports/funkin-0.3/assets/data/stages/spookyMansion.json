@@ -5,14 +5,14 @@
       "assetPath": "#242336",
       "position": [-300, -500],
       "scroll": [1, 1],
-      "scale": [2400, 2000],
+      "scale": [4800, 4000],
       "zIndex": -500
     },
     {
       "danceEvery": 0,
       "zIndex": -100,
       "position": [-200, -100],
-      "scale": [1, 1],
+      "scale": [2, 2],
       "animType": "sparrow",
       "name": "halloweenBG",
       "isPixel": false,
